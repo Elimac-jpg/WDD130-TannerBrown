@@ -4,7 +4,42 @@
 
 /* Sign Up Page CSS */
 
+#user-input {
+    display: grid;
+    margin-top: 50px;
+    background-color: #456990;
+    color: #eeb868;
+    justify-self: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border: 5px solid #49beaa;
+    border-radius: 10px;
+}
 
+#full_name {
+    grid-row: 2/3;
+    width: 300px;
+}
 
+#elable {
+    grid-row: 4/5;
+}
+
+#email {
+    grid-row: 5/6;
+}
+
+#mlable {
+    grid-row: 7/8;
+}
+
+#message {
+    grid-row: 8/9;
+    height: 150px;
+}
+
+#button {
+    grid-row: 10/11;
+}
 
 /* Date Idea Page CSS */
