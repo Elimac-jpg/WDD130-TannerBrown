@@ -3,11 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Styled Navbar</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        .main-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 100px; 
+            max-width: 900px;
+            margin: 40px auto;
+        }
+
+        .qr-code {
+            width: 150px; 
+            height: auto;
+        }
+
+        .text-box-container {
+            flex: 1; 
+        }
+    </style>
 </head>
+
 <body>
-    <nav>
-        <a href="signup.html">Sign Up</a>
-    </nav>
+    <header>
+        <img src="images/Picture1.png" alt="Group Dates Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="date-ideas.html">Date Ideas</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container">
+            
+            <img src="images/Picture2.png" alt="Venmo QR Code" class="qr-code">
+
+           
+            <div class="text-box-container">
+                <label for="infoBox">About Group Dates:</label><br>
+                <textarea id="infoBox" class="styled-textbox" readonly>
+Group dates and socializing play a vital role in building meaningful connections and enhancing well-being. Group dates offer a relaxed, low-pressure environment where people can get to know each other naturally, making it easier to reveal true personalities and social dynamics. They provide safety, fun, and opportunities to form both romantic relationships and friendships, expanding social circles in a comfortable setting.
+                </textarea>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
